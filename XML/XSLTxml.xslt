@@ -25,14 +25,14 @@
       <xsl:for-each select="event">
         <xsl:if test="performances/performance/price=25">
           <event>
-            <event-name>
-              <xsl:value-of select="event-name"/>
-            </event-name>
             <xsl:for-each select="performances/performance">
               <performace>
                 <xsl:value-of select="datetime"/>,&#160;<xsl:value-of select="location/location-name"/>
               </performace>
             </xsl:for-each>
+            <event-name>
+              <xsl:value-of select="event-name"/>
+            </event-name>
           </event>
         </xsl:if>
       </xsl:for-each>
@@ -40,9 +40,9 @@
       <artists>List of directors</artists>
       <xsl:for-each select="event">
         <xsl:if test="performers/performer/@type='director'">
-            <performer>
-              <xsl:value-of select="performers/performer" />
-            </performer>
+          <performer>
+            <xsl:value-of select="performers/performer" />
+          </performer>
         </xsl:if>
       </xsl:for-each>
 

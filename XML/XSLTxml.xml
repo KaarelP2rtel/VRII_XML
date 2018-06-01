@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<events>
+  <event>
+    <event-name>Estonian Requiems</event-name>
+    <performace>13.06.2018 18:00, Tartu St.Paul's Church, 35 €
+              </performace>
+    <performace>14.06.2018 20:00, Estonia Concert Hall, 30 €
+              </performace>
+  </event>
+  <event>
+    <performace>09.06.2018 18:00, Viljandi Hall</performace>
+    <performace>10.06.2018 18:00, Narva tower</performace>
+    <performace>11.06.2018 18:00, Pärnu Concert Hall</performace>
+    <event-name>Bird Seller</event-name>
+  </event>
+  <event>
+    <performace>12.06.2018 18:00, Pärnu Concert Hall</performace>
+    <event-name>Antigone</event-name>
+  </event>
+  <artists>List of directors</artists>
+  <performer>Reigo Tamm</performer>
+  <performer>ZZ</performer>
+</events>

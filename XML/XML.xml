@@ -14,7 +14,7 @@
           <location-contacts contact-type="phone"><![CDATA[55551111]]></location-contacts>
           <location-image><![CDATA[https://static2.visitestonia.com/images/2869794/DSC_1560_.jpg]]></location-image>
         </location>
-        <price currency="EUR"><![CDATA[15]]></price>
+        <price currency="EUR"><![CDATA[35]]></price>
       </performance>
       <performance>
         <datetime>14.06.2018 20:00</datetime>
@@ -24,7 +24,7 @@
           <location-contacts contact-type="phone"><![CDATA[55552222]]></location-contacts>
           <location-image><![CDATA[https://static1.visitestonia.com/images/2872507/10_.jpg]]></location-image>
         </location>
-        <price currency="EUR"><![CDATA[20]]></price>
+        <price currency="EUR"><![CDATA[30]]></price>
       </performance>
     </performances>
     <performers>
@@ -40,6 +40,28 @@
     <performances>
       <performance>
         <datetime>09.06.2018 18:00</datetime>
+        <location>
+          <location-name type="concert hall"><![CDATA[Viljandi Hall]]></location-name>
+          <location-address><![CDATA[Viljandi linn, Järveääre]]></location-address>
+          <location-contacts contact-type="phone"><![CDATA[55556666]]></location-contacts>
+          <location-contacts contact-type="email"><![CDATA[xx@xxx.xx]]></location-contacts>
+          <location-image><![CDATA[https://concert.ee/static/GLaak_21Sep17Nr0332%C3%B5ues-768x457.jpg]]></location-image>
+        </location>
+        <price currency="EUR"><![CDATA[25]]></price>
+      </performance>
+      <performance>
+        <datetime>10.06.2018 18:00</datetime>
+        <location>
+          <location-name type="concert hall"><![CDATA[Narva tower]]></location-name>
+          <location-address><![CDATA[Narva linn, Piiriääre]]></location-address>
+          <location-contacts contact-type="phone"><![CDATA[55557777]]></location-contacts>
+          <location-contacts contact-type="email"><![CDATA[xx@xxx.xx]]></location-contacts>
+          <location-image><![CDATA[https://concert.ee/static/GLaak_21Sep17Nr0332%C3%B5ues-768x457.jpg]]></location-image>
+        </location>
+        <price currency="EUR"><![CDATA[25]]></price>
+      </performance>
+      <performance>
+        <datetime>11.06.2018 18:00</datetime>
         <location>
           <location-name type="concert hall"><![CDATA[Pärnu Concert Hall]]></location-name>
           <location-address><![CDATA[Pärnu linn, Jõeääre]]></location-address>

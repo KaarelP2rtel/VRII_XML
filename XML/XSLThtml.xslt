@@ -31,7 +31,7 @@
               <tr>
                 <td>When / Where</td>
                 <td>
-                  <xsl:value-of select="datetime"/>,&#160;<xsl:value-of select="location/location-name"/>,&#160;<xsl:value-of select="price"/>&#160;&#8364;<xsl:value-of select="@currency"/>
+                  <xsl:value-of select="datetime"/>,&#160;<xsl:value-of select="location/location-name"/>,&#160;<xsl:value-of select="price"/>&#160;&#8364;
                 </td>
               </tr>              
             </xsl:for-each>

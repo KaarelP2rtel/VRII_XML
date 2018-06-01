@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <events>
   <event id="1" active="true">
-    <event-type><![CDATA[Concert]]></event-type>
-    <event-name><![CDATA[Estonian Requiems]]></event-name>
+    <event-name type="concert"><![CDATA[Estonian Requiems]]></event-name>
     <event-description><![CDATA[Estonian Music for Estonians. Cyrillius Kreek. Eduard Tubin]]></event-description>
     <event-image><![CDATA[https://concert.ee/static/Eesti-Reekviemid.jpg]]></event-image>
     <company><![CDATA[Estonian Concert]]></company>
@@ -10,8 +9,7 @@
       <performance>
         <datetime>13.06.2018 18:00</datetime>
         <location>
-          <location-type><![CDATA[Church]]></location-type>
-          <location-name><![CDATA[Tartu St.Paul's Church]]></location-name>
+          <location-name type="church"><![CDATA[Tartu St.Paul's Church]]></location-name>
           <location-address><![CDATA[Tartu linn, Plats 16]]></location-address>
           <location-contacts contact-type="phone"><![CDATA[55551111]]></location-contacts>
           <location-image><![CDATA[https://static2.visitestonia.com/images/2869794/DSC_1560_.jpg]]></location-image>
@@ -21,8 +19,7 @@
       <performance>
         <datetime>14.06.2018 20:00</datetime>
         <location>
-          <location-type><![CDATA[Concert Hall]]></location-type>
-          <location-name><![CDATA[Estonia Concert Hall]]></location-name>
+          <location-name type="concert hall"><![CDATA[Estonia Concert Hall]]></location-name>
           <location-address><![CDATA[Tallinna linn, Estonia puistee]]></location-address>
           <location-contacts contact-type="phone"><![CDATA[55552222]]></location-contacts>
           <location-image><![CDATA[https://static1.visitestonia.com/images/2872507/10_.jpg]]></location-image>
@@ -31,16 +28,12 @@
       </performance>
     </performances>
     <performers>
-      <performer>
-        <performer-type><![CDATA[Choir]]></performer-type>
-        <performer-name><![CDATA[Estonian National Male Choir]]></performer-name>
-      </performer>
+      <performer type="choir"><![CDATA[Estonian National Male Choir]]></performer>
     </performers>
   </event>
 
   <event id="2" active="true">
-    <event-type><![CDATA[Operetta]]></event-type>
-    <event-name><![CDATA[Bird Seller]]></event-name>
+    <event-name type="operetta"><![CDATA[Bird Seller]]></event-name>
     <event-description><![CDATA[Carl Zeller's most popular operetta]]></event-description>
     <event-image><![CDATA[https://concert.ee/static/Linnukaupleja_062-768x1160.jpg]]></event-image>
     <company><![CDATA[Estonian Concert]]></company>
@@ -48,8 +41,7 @@
       <performance>
         <datetime>09.06.2018 18:00</datetime>
         <location>
-          <location-type><![CDATA[Concert Hall]]></location-type>
-          <location-name><![CDATA[Pärnu Concert Hall]]></location-name>
+          <location-name type="concert hall"><![CDATA[Pärnu Concert Hall]]></location-name>
           <location-address><![CDATA[Pärnu linn, Jõeääre]]></location-address>
           <location-contacts contact-type="phone"><![CDATA[55553333]]></location-contacts>
           <location-contacts contact-type="email"><![CDATA[xx@xxx.xx]]></location-contacts>
@@ -59,24 +51,14 @@
       </performance>
     </performances>
     <performers>
-      <performer>
-        <performer-type><![CDATA[Soloist]]></performer-type>
-        <performer-name><![CDATA[Reigo Tamm]]></performer-name>
-      </performer>
-      <performer>
-        <performer-type><![CDATA[Director]]></performer-type>
-        <performer-name><![CDATA[Marko Matvere]]></performer-name>
-      </performer>
-      <performer>
-        <performer-type><![CDATA[Orchestra]]></performer-type>
-        <performer-name><![CDATA[National Opera Orchestra]]></performer-name>
-      </performer>
+      <performer type="soloist"><![CDATA[Reigo Tamm]]></performer>
+      <performer type="director"><![CDATA[Marko Matvere]]></performer>
+      <performer type="orchestra"><![CDATA[National Opera Orchestra]]></performer>
     </performers>
   </event>
 
   <event id="303" active="false">
-    <event-type><![CDATA[Theatre]]></event-type>
-    <event-name><![CDATA[Antigone]]></event-name>
+    <event-name type="theatre"><![CDATA[Antigone]]></event-name>
     <event-description><![CDATA[Antigone is a tragedy by Sophocles written in or before 441 BC.]]></event-description>
     <event-image><![CDATA[https://concert.ee/static/Linnukaupleja_062-768x1160.jpg]]></event-image>
     <company><![CDATA[Estonian Concert]]></company>
@@ -84,8 +66,7 @@
       <performance>
         <datetime>12.06.2018 18:00</datetime>
         <location>
-          <location-type><![CDATA[Concert Hall]]></location-type>
-          <location-name><![CDATA[Pärnu Concert Hall]]></location-name>
+          <location-name type="open air theatre"><![CDATA[Pärnu Concert Hall]]></location-name>
           <location-address><![CDATA[Pärnu linn, Jõeääre]]></location-address>
           <location-contacts contact-type="phone"><![CDATA[55553333]]></location-contacts>
           <location-image><![CDATA[https://concert.ee/static/GLaak_21Sep17Nr0332%C3%B5ues-768x457.jpg]]></location-image>
@@ -94,22 +75,10 @@
       </performance>
     </performances>
     <performers>
-      <performer>
-        <performer-type><![CDATA[Actor]]></performer-type>
-        <performer-name><![CDATA[ZZ]]></performer-name>
-      </performer>
-      <performer>
-        <performer-type><![CDATA[Actor]]></performer-type>
-        <performer-name><![CDATA[ZZ]]></performer-name>
-      </performer>
-      <performer>
-        <performer-type><![CDATA[Director]]></performer-type>
-        <performer-name><![CDATA[ZZ]]></performer-name>
-      </performer>
-      <performer>
-        <performer-type><![CDATA[Dancer]]></performer-type>
-        <performer-name><![CDATA[ZZ]]></performer-name>
-      </performer>
+      <performer type="actor"><![CDATA[ZZ]]></performer>
+      <performer type="actor"><![CDATA[YY]]></performer>
+      <performer type="dancer"><![CDATA[XX]]></performer>
+      <performer type="director"><![CDATA[WW]]></performer>
     </performers>
   </event>
 

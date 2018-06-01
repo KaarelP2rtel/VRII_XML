@@ -6,33 +6,37 @@
     <event-description><![CDATA[Estonian Music for Estonians. Cyrillius Kreek. Eduard Tubin]]></event-description>
     <event-image><![CDATA[https://concert.ee/static/Eesti-Reekviemid.jpg]]></event-image>
     <company><![CDATA[Estonian Concert]]></company>
-    <performance>
-      <datetime>13.06.2018 18:00</datetime>
-      <location>
-        <location-type><![CDATA[Church]]></location-type>
-        <location-name><![CDATA[Tartu St.Paul&apos;s Church]]></location-name>
-        <location-address><![CDATA[Tartu linn, Plats 16]]></location-address>
-        <location-contacts contact-type="phone"><![CDATA[55551111]]></location-contacts>
-        <location-image><![CDATA[https://static2.visitestonia.com/images/2869794/DSC_1560_.jpg]]></location-image>
-      </location>
-      <price currency="EUR"><![CDATA[15]]></price>
-    </performance>
-    <performance>
-      <datetime>14.06.2018 20:00</datetime>
-      <location>
-        <location-type><![CDATA[Concert Hall]]></location-type>
-        <location-name><![CDATA[Estonia Concert Hall]]></location-name>
-        <location-address><![CDATA[Tallinna linn, Estonia puistee]]></location-address>
-        <location-contacts contact-type="phone"><![CDATA[55552222]]></location-contacts>
-        <location-image><![CDATA[https://static1.visitestonia.com/images/2872507/10_.jpg]]></location-image>
-      </location>
-      <price currency="EUR"><![CDATA[20]]></price>
-    </performance>
-    <performer>
-      <performer-type><![CDATA[Choir]]></performer-type>
-      <performer-name><![CDATA[Estonian National Male Choir]]></performer-name>  
-    </performer>   
-   </event>
+    <performances>
+      <performance>
+        <datetime>13.06.2018 18:00</datetime>
+        <location>
+          <location-type><![CDATA[Church]]></location-type>
+          <location-name><![CDATA[Tartu St.Paul's Church]]></location-name>
+          <location-address><![CDATA[Tartu linn, Plats 16]]></location-address>
+          <location-contacts contact-type="phone"><![CDATA[55551111]]></location-contacts>
+          <location-image><![CDATA[https://static2.visitestonia.com/images/2869794/DSC_1560_.jpg]]></location-image>
+        </location>
+        <price currency="EUR"><![CDATA[15]]></price>
+      </performance>
+      <performance>
+        <datetime>14.06.2018 20:00</datetime>
+        <location>
+          <location-type><![CDATA[Concert Hall]]></location-type>
+          <location-name><![CDATA[Estonia Concert Hall]]></location-name>
+          <location-address><![CDATA[Tallinna linn, Estonia puistee]]></location-address>
+          <location-contacts contact-type="phone"><![CDATA[55552222]]></location-contacts>
+          <location-image><![CDATA[https://static1.visitestonia.com/images/2872507/10_.jpg]]></location-image>
+        </location>
+        <price currency="EUR"><![CDATA[20]]></price>
+      </performance>
+    </performances>
+    <performers>
+      <performer>
+        <performer-type><![CDATA[Choir]]></performer-type>
+        <performer-name><![CDATA[Estonian National Male Choir]]></performer-name>
+      </performer>
+    </performers>
+  </event>
 
   <event id="2" active="true">
     <event-type><![CDATA[Operetta]]></event-type>
@@ -40,63 +44,74 @@
     <event-description><![CDATA[Carl Zeller's most popular operetta]]></event-description>
     <event-image><![CDATA[https://concert.ee/static/Linnukaupleja_062-768x1160.jpg]]></event-image>
     <company><![CDATA[Estonian Concert]]></company>
-    <performance>
-      <datetime>09.06.2018 18:00</datetime>
-      <location>
-        <location-type><![CDATA[Concert Hall]]></location-type>
-        <location-name><![CDATA[Pärnu Concert Hall]]></location-name>
-        <location-address><![CDATA[Pärnu linn, Jõeääre]]></location-address>
-        <location-contacts contact-type="phone"><![CDATA[55553333]]></location-contacts>
-        <location-image><![CDATA[https://concert.ee/static/GLaak_21Sep17Nr0332%C3%B5ues-768x457.jpg]]></location-image>
-      </location>
-      <price currency="EUR"><![CDATA[25]]></price>
-    </performance>
-    <performer>
-      <performer-type><![CDATA[Soloist]]></performer-type>
-      <performer-name><![CDATA[Reigo Tamm]]></performer-name>
-    </performer>
-    <performer>
-      <performer-type><![CDATA[Director]]></performer-type>
-      <performer-name><![CDATA[Marko Matvere]]></performer-name>
-    </performer>
-    <performer>
-      <performer-type><![CDATA[Orchestra]]></performer-type>
-      <performer-name><![CDATA[National Opera Orchestra]]></performer-name>
-    </performer>
+    <performances>
+      <performance>
+        <datetime>09.06.2018 18:00</datetime>
+        <location>
+          <location-type><![CDATA[Concert Hall]]></location-type>
+          <location-name><![CDATA[Pärnu Concert Hall]]></location-name>
+          <location-address><![CDATA[Pärnu linn, Jõeääre]]></location-address>
+          <location-contacts contact-type="phone"><![CDATA[55553333]]></location-contacts>
+          <location-contacts contact-type="email"><![CDATA[xx@xxx.xx]]></location-contacts>
+          <location-image><![CDATA[https://concert.ee/static/GLaak_21Sep17Nr0332%C3%B5ues-768x457.jpg]]></location-image>
+        </location>
+        <price currency="EUR"><![CDATA[25]]></price>
+      </performance>
+    </performances>
+    <performers>
+      <performer>
+        <performer-type><![CDATA[Soloist]]></performer-type>
+        <performer-name><![CDATA[Reigo Tamm]]></performer-name>
+      </performer>
+      <performer>
+        <performer-type><![CDATA[Director]]></performer-type>
+        <performer-name><![CDATA[Marko Matvere]]></performer-name>
+      </performer>
+      <performer>
+        <performer-type><![CDATA[Orchestra]]></performer-type>
+        <performer-name><![CDATA[National Opera Orchestra]]></performer-name>
+      </performer>
+    </performers>
   </event>
 
   <event id="303" active="false">
-    <event-type><![CDATA[Operetta]]></event-type>
-    <event-name><![CDATA[Bird Seller]]></event-name>
-    <event-description><![CDATA[Carl Zeller's most popular operetta]]></event-description>
+    <event-type><![CDATA[Theatre]]></event-type>
+    <event-name><![CDATA[Antigone]]></event-name>
+    <event-description><![CDATA[Antigone is a tragedy by Sophocles written in or before 441 BC.]]></event-description>
     <event-image><![CDATA[https://concert.ee/static/Linnukaupleja_062-768x1160.jpg]]></event-image>
     <company><![CDATA[Estonian Concert]]></company>
-    <performance>
-      <datetime>12.06.2018 18:00</datetime>
-      <location>
-        <location-type><![CDATA[Concert Hall]]></location-type>
-        <location-name><![CDATA[Pärnu Concert Hall]]></location-name>
-        <location-address><![CDATA[Pärnu linn, Jõeääre]]></location-address>
-        <location-contacts contact-type="phone"><![CDATA[55553333]]></location-contacts>
-        <location-image><![CDATA[https://concert.ee/static/GLaak_21Sep17Nr0332%C3%B5ues-768x457.jpg]]></location-image>
-      </location>
-      <price currency="EUR"><![CDATA[25]]></price>
-    </performance>
-    <performer>
-      <performer-type><![CDATA[Soloist]]></performer-type>
-      <performer-name><![CDATA[Reigo Tamm]]></performer-name>
-    </performer>
-    <performer>
-      <performer-type><![CDATA[Director]]></performer-type>
-      <performer-name><![CDATA[Marko Matvere]]></performer-name>
-    </performer>
-    <performer>
-      <performer-type><![CDATA[Orchestra]]></performer-type>
-      <performer-name><![CDATA[National Opera Orchestra]]></performer-name>
-    </performer>
+    <performances>
+      <performance>
+        <datetime>12.06.2018 18:00</datetime>
+        <location>
+          <location-type><![CDATA[Concert Hall]]></location-type>
+          <location-name><![CDATA[Pärnu Concert Hall]]></location-name>
+          <location-address><![CDATA[Pärnu linn, Jõeääre]]></location-address>
+          <location-contacts contact-type="phone"><![CDATA[55553333]]></location-contacts>
+          <location-image><![CDATA[https://concert.ee/static/GLaak_21Sep17Nr0332%C3%B5ues-768x457.jpg]]></location-image>
+        </location>
+        <price currency="EUR"><![CDATA[25]]></price>
+      </performance>
+    </performances>
+    <performers>
+      <performer>
+        <performer-type><![CDATA[Actor]]></performer-type>
+        <performer-name><![CDATA[ZZ]]></performer-name>
+      </performer>
+      <performer>
+        <performer-type><![CDATA[Actor]]></performer-type>
+        <performer-name><![CDATA[ZZ]]></performer-name>
+      </performer>
+      <performer>
+        <performer-type><![CDATA[Director]]></performer-type>
+        <performer-name><![CDATA[ZZ]]></performer-name>
+      </performer>
+      <performer>
+        <performer-type><![CDATA[Dancer]]></performer-type>
+        <performer-name><![CDATA[ZZ]]></performer-name>
+      </performer>
+    </performers>
   </event>
- 
-  
-  
-  
+
+
 </events>

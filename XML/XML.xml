@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <events>
-  <event id="1">
+  <event id="1" active="true">
     <event-type><![CDATA[Concert]]></event-type>
     <event-name><![CDATA[Estonian Requiems]]></event-name>
     <event-description><![CDATA[Estonian Music for Estonians. Cyrillius Kreek. Eduard Tubin]]></event-description>
@@ -34,14 +34,45 @@
     </performer>   
    </event>
 
-  <event id="2">
+  <event id="2" active="true">
     <event-type><![CDATA[Operetta]]></event-type>
-    <event-name><![CDATA[Bird Sller]]></event-name>
+    <event-name><![CDATA[Bird Seller]]></event-name>
     <event-description><![CDATA[Carl Zeller's most popular operetta]]></event-description>
     <event-image><![CDATA[https://concert.ee/static/Linnukaupleja_062-768x1160.jpg]]></event-image>
     <company><![CDATA[Estonian Concert]]></company>
     <performance>
       <datetime>09.06.2018 18:00</datetime>
+      <location>
+        <location-type><![CDATA[Concert Hall]]></location-type>
+        <location-name><![CDATA[Pärnu Concert Hall]]></location-name>
+        <location-address><![CDATA[Pärnu linn, Jõeääre]]></location-address>
+        <location-contacts contact-type="phone"><![CDATA[55553333]]></location-contacts>
+        <location-image><![CDATA[https://concert.ee/static/GLaak_21Sep17Nr0332%C3%B5ues-768x457.jpg]]></location-image>
+      </location>
+      <price currency="EUR"><![CDATA[25]]></price>
+    </performance>
+    <performer>
+      <performer-type><![CDATA[Soloist]]></performer-type>
+      <performer-name><![CDATA[Reigo Tamm]]></performer-name>
+    </performer>
+    <performer>
+      <performer-type><![CDATA[Director]]></performer-type>
+      <performer-name><![CDATA[Marko Matvere]]></performer-name>
+    </performer>
+    <performer>
+      <performer-type><![CDATA[Orchestra]]></performer-type>
+      <performer-name><![CDATA[National Opera Orchestra]]></performer-name>
+    </performer>
+  </event>
+
+  <event id="303" active="false">
+    <event-type><![CDATA[Operetta]]></event-type>
+    <event-name><![CDATA[Bird Seller]]></event-name>
+    <event-description><![CDATA[Carl Zeller's most popular operetta]]></event-description>
+    <event-image><![CDATA[https://concert.ee/static/Linnukaupleja_062-768x1160.jpg]]></event-image>
+    <company><![CDATA[Estonian Concert]]></company>
+    <performance>
+      <datetime>12.06.2018 18:00</datetime>
       <location>
         <location-type><![CDATA[Concert Hall]]></location-type>
         <location-name><![CDATA[Pärnu Concert Hall]]></location-name>

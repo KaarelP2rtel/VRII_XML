@@ -53,6 +53,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="XML.xml" />
+    <Content Include="XSLThtml.xslt" />
+    <Content Include="XSLTxml.xslt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

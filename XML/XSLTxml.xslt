@@ -37,13 +37,13 @@
         </xsl:if>
       </xsl:for-each>
 
-      <artists>List of directors</artists>
-      <xsl:for-each select="event">
-        <xsl:if test="performers/performer/@type='director'">
-          <performer>
-            <xsl:value-of select="performers/performer" />
-          </performer>
-        </xsl:if>
+      <artists>List of actors</artists>
+      <xsl:for-each select="event/performers/performer">
+          <xsl:if test="@type='actor'">
+            <performer>
+              <xsl:value-of select="performer-name" />,&#160;<xsl:value-of select="@type" />
+            </performer>
+          </xsl:if>
       </xsl:for-each>
 
     </events>

@@ -28,7 +28,9 @@
       </performance>
     </performances>
     <performers>
-      <performer type="choir"><![CDATA[Estonian National Male Choir]]></performer>
+      <performer type="choir">
+        <performer-name><![CDATA[Estonian National Male Choir]]></performer-name>        
+      </performer>
     </performers>
   </event>
 
@@ -73,9 +75,15 @@
       </performance>
     </performances>
     <performers>
-      <performer type="soloist"><![CDATA[Reigo Tamm]]></performer>
-      <performer type="director"><![CDATA[Marko Matvere]]></performer>
-      <performer type="orchestra"><![CDATA[National Opera Orchestra]]></performer>
+      <performer type="soloist">
+        <performer-name><![CDATA[Reigo Tamm]]></performer-name>
+      </performer>
+      <performer type="director">
+        <performer-name><![CDATA[Marko Matvere]]></performer-name>
+      </performer>
+      <performer type="orchestra">
+        <performer-name><![CDATA[National Opera Orchestra]]></performer-name>
+      </performer>
     </performers>
   </event>
 
@@ -97,12 +105,19 @@
       </performance>
     </performances>
     <performers>
-      <performer type="actor"><![CDATA[ZZ]]></performer>
-      <performer type="actor"><![CDATA[YY]]></performer>
-      <performer type="dancer"><![CDATA[XX]]></performer>
-      <performer type="director"><![CDATA[WW]]></performer>
+      <performer type="actor">
+        <performer-name><![CDATA[ZZ]]></performer-name>
+      </performer>
+      <performer type="actor">
+        <performer-name><![CDATA[YY]]></performer-name>
+      </performer>
+      <performer type="dancer">
+        <performer-name><![CDATA[ZZ]]></performer-name>
+      </performer>
+      <performer type="director">
+        <performer-name><![CDATA[ZZ]]></performer-name>
+      </performer>
     </performers>
   </event>
-
 
 </events>

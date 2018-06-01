@@ -50,12 +50,12 @@
     <None Include="XMLSchema.xsd">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="XSLTxml.xml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="XML.xml" />
     <Content Include="XSLThtml.htm" />
     <Content Include="XSLThtml.xslt" />
-    <Content Include="XSLTxml.xml" />
     <Content Include="XSLTxml.xslt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

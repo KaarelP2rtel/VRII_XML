@@ -1,23 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <events>
-  <event>
-    <event-name>Estonian Requiems</event-name>
-    <performace>13.06.2018 18:00, Tartu St.Paul's Church, 35 €
-              </performace>
-    <performace>14.06.2018 20:00, Estonia Concert Hall, 30 €
-              </performace>
-  </event>
-  <event>
-    <performace>09.06.2018 18:00, Viljandi Hall</performace>
-    <performace>10.06.2018 18:00, Narva tower</performace>
-    <performace>11.06.2018 18:00, Pärnu Concert Hall</performace>
-    <event-name>Bird Seller</event-name>
-  </event>
-  <event>
-    <performace>12.06.2018 18:00, Pärnu Concert Hall</performace>
-    <event-name>Antigone</event-name>
-  </event>
-  <artists>List of actors</artists>
-  <performer>ZZ, actor</performer>
-  <performer>YY, actor</performer>
+  <events-by-type>
+    <title>Events by price more than 30 € with performances</title>
+    <event>
+      <event-name>Estonian Requiems</event-name>
+      <performace>13.06.2018 18:00, Tartu St.Paul's Church, 35 €
+                </performace>
+      <performace>14.06.2018 20:00, Estonia Concert Hall, 30 €
+                </performace>
+    </event>
+  </events-by-type>
+  <events-by-type>
+    <title>Events by price = 20 € with performances</title>
+    <event>
+      <event-name>Bird Seller</event-name>
+      <performace>09.06.2018 18:00, Viljandi Hall</performace>
+      <performace>10.06.2018 18:00, Narva tower</performace>
+      <performace>11.06.2018 18:00, Pärnu Concert Hall</performace>
+    </event>
+    <event>
+      <event-name>Antigone</event-name>
+      <performace>12.06.2018 18:00, Pärnu Concert Hall</performace>
+    </event>
+  </events-by-type>
+  <events-by-type>
+    <title>Events by type with performances</title>
+    <show>Bird Seller, operetta</show>
+    <performance>09.06.2018 18:00, Viljandi Hall</performance>
+    <performance>10.06.2018 18:00, Narva tower</performance>
+    <performance>11.06.2018 18:00, Pärnu Concert Hall</performance>
+  </events-by-type>
+  <artists>
+    <title>List of actors</title>
+    <performer>ZZ, actor</performer>
+    <performer>YY, actor</performer>
+    <title>List of directors</title>
+    <performer>Marko Matvere, director</performer>
+    <performer>ZZ, director</performer>
+  </artists>
+  <locations>
+    <title>List of concert halls</title>
+    <location>Estonia Concert Hall, concert hall</location>
+    <location>Viljandi Hall, concert hall</location>
+    <location>Narva tower, concert hall</location>
+    <location>Pärnu Concert Hall, concert hall</location>
+  </locations>
 </events>
